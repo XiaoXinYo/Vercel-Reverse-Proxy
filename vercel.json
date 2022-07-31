@@ -1,3 +1,5 @@
 {
-  "routes": [{ "src": "/product/(?<id>[^/]+)", "dest": "$id" }]
+  "rewrites": [
+    { "source": "/(.*)", "destination": "https://github.com/$1"}
+  ]
 }
