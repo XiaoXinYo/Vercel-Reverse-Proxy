@@ -1,6 +1,6 @@
 {
   "version": 2,
   "routes": [
-      {"src": "/(.*)","dest": "https://github.com/$1"}
+      {"src": "/?(.*)","dest": "$1"}
   ]
 }
