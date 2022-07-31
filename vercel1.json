@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    {"source": "/(.*)", "destination": "https://github.com/$1"}
+  ]
+}

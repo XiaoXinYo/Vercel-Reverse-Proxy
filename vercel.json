@@ -1,5 +1,0 @@
-{
-  "routes": [
-    {"src": "/(.*)", "dest": "https://www.google.com/$1"}
-  ]
-}
