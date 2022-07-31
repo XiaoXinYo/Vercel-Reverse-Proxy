@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+      { "source": "/(.*)", "destination": "https://www.google.com/$1" }
+  ]
+}
