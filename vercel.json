@@ -1,5 +1,6 @@
 {
-  "rewrites": [
-      { "source": "/(.*)", "destination": "https://www.google.com/$1" }
+  "version": 2,
+  "routes": [
+      {"src": "/(.*)","dest": "https://www.google.com/$1"}
   ]
 }
