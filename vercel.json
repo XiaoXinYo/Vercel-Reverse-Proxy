@@ -1,6 +1,3 @@
 {
-  "version": 2,
-  "routes": [
-      {"src": "/?(.*)","dest": "$1"}
-  ]
+  "routes": [{ "src": "/product/(?<id>[^/]+)", "dest": "$id" }]
 }
